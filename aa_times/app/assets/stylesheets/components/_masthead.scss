@@ -29,9 +29,18 @@
 	display: flex;
 }
 
+.language-nav li:first-child {
+	font-weight: bold;
+}
+
+// #f {
+//   font-weight: bold;
+// }
+
 .logo {
 	max-width: 400px;
 	margin-top: 10px;
+  background: green;
 }
 
 .masthead-links {
@@ -47,6 +56,11 @@
 	border-right: 1px solid $light-gray;
 }
 
+.masthead-links li:last-child {
+	margin-left: 10px;
+	border-right: none;
+}
+
 .masthead-links button {
 	background: none;
 	padding: 0px;
@@ -60,7 +74,7 @@
 }
 
 .masthead-links a,
-.masthead-links button, 
+.masthead-links button,
 .masthead-links time {
 	margin-right: 10px;
 }

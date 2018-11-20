@@ -32,8 +32,8 @@ button {
 // }
 
 button:hover {
-	// background-color:
-	// border-color:
+	background-color: $light-gray;
+	border-color: $darkest-blue;
 }
 
 /*
@@ -54,4 +54,8 @@ hr {
 .hr-top {
 	height: 2px;
 	margin-bottom: 1px;
+}
+
+a:hover {
+  background: $light-gray;
 }
